@@ -2,16 +2,14 @@ import React from 'react';
   
 const Inicio = () => {
 	return (
-		<div
-		  style={{
-			display: 'flex',
-			justifyContent: 'Right',
-			alignItems: 'Right',
-			height: '100vh'
-		  }}
-		>
-		  <h1>inicio</h1>
+		<div class="container">
+		<div class="cadastro animated fadeInUp">
+		  <div class="box-header">
+			<h2>Home</h2>
+		  </div>
+  
 		</div>
+	  </div>
 	  );
 	};
 	  

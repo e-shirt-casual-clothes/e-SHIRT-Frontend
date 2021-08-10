@@ -30,8 +30,8 @@ const Navbar = () => {
           <NavLink to='/contato' activeStyle>
             Contato
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sair
+          <NavLink to='/cadastro' activeStyle>
+            Cadastro
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

@@ -2,16 +2,14 @@ import React from 'react';
   
 const Sobre = () => {
 	return (
-		<div
-		  style={{
-			display: 'flex',
-			justifyContent: 'Right',
-			alignItems: 'Right',
-			height: '100vh'
-		  }}
-		>
-		  <h1>Sobre</h1>
+		<div class="container">
+		<div class="cadastro animated fadeInUp">
+		  <div class="box-header">
+			<h2>Sobre</h2>
+		  </div>
+  
 		</div>
+	  </div>
 	  );
 	};
 	  

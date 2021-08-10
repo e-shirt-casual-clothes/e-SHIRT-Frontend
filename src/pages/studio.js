@@ -2,15 +2,13 @@ import React from 'react';
   
 const Studio = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
-      <h1>studio</h1>
+    <div class="container">
+      <div class="cadastro animated fadeInUp">
+        <div class="box-header">
+          <h2>3D Studio</h2>
+        </div>
+
+      </div>
     </div>
   );
 };

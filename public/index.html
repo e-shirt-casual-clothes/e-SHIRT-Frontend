@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -24,7 +24,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <meta charset="utf-8">
+	
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+    <title>e-SHIRT C@SUAL CLOT#ES</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +50,24 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!--===============================================================================================-->
+    <script>
+      $(document).ready(function () {
+          $('#logo').addClass('animated fadeInDown');
+          $("input:text:visible:first").focus();
+      });
+      $('#username').focus(function() {
+        $('label[for="username"]').addClass('selected');
+      });
+      $('#username').blur(function() {
+        $('label[for="username"]').removeClass('selected');
+      });
+      $('#password').focus(function() {
+        $('label[for="password"]').addClass('selected');
+      });
+      $('#password').blur(function() {
+        $('label[for="password"]').removeClass('selected');
+      });
+    </script>
   </body>
 </html>
