@@ -18,14 +18,14 @@ const Navbar = () => {
           <NavLink to='/inicio' activeStyle>
             Inicio
           </NavLink>
-          <NavLink to='/projeto' activeStyle>
-            Projeto
+          <NavLink to='/studio' activeStyle>
+            3D Studio
           </NavLink>
           <NavLink to='/sobre' activeStyle>
             Sobre
           </NavLink>
-          <NavLink to='/studio' activeStyle>
-            3D Studio
+          <NavLink to='/projeto' activeStyle>
+            Projeto
           </NavLink>
           <NavLink to='/contato' activeStyle>
             Contato

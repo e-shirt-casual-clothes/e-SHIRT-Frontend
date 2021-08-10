@@ -22,6 +22,7 @@ const Signin = () => {
 				<button type="submit">Entrar</button>
 				<br />
 				<a href="#"><p class="small">Esqueçeu E-mail / Senha?</p></a>
+				<a href="#"><p class="small">Não tem cadastro? Clique aqui!</p></a>
 			</div>
 		</div>
 

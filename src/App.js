@@ -3,13 +3,13 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages'
+import Home from './pages';
 import Inicio from './pages/inicio';
 import Projeto from './pages/projeto';
 import Sobre from './pages/sobre';
 import Studio from './pages/studio';
 import Contato from './pages/contato';
-import Signin from './pages/signin'
+import Signin from './pages/signin';
 import cadastro from './pages/cadastro';
   
 function App() {
