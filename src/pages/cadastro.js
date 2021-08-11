@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const cadastro = () => {
   return (
@@ -42,7 +43,7 @@ const cadastro = () => {
           <br />
 				<button type="submit">Cadastrar</button>
 				<br />
-				<a href="#"><p class="small">Já tem cadastro? Clique aqui!</p></a>
+        <Link to="/signin" ><p class="small">Já tem cadastro? Clique aqui!</p></Link>
       </div>
     </div>
   );

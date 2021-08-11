@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Signin = () => {
 	return (
@@ -21,8 +22,8 @@ const Signin = () => {
 				<br />
 				<button type="submit">Entrar</button>
 				<br />
-				<a href="#"><p class="small">Esqueçeu E-mail / Senha?</p></a>
-				<a href="#"><p class="small">Não tem cadastro? Clique aqui!</p></a>
+				<Link to="/recuperacao"><p class="small">Esqueçeu E-mail / Senha?</p></Link>
+				<Link to="/cadastro"  ><p class="small">Não tem cadastro? Clique aqui!</p> </Link>
 			</div>
 		</div>
 
