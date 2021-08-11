@@ -9,7 +9,7 @@ import Projeto from './pages/projeto';
 import Sobre from './pages/sobre';
 import Studio from './pages/studio';
 import Contato from './pages/contato';
-import Signin from './pages/signin';
+import Login from './pages/login';
 import Cadastro from './pages/cadastro';
 import Recuperacao from './pages/recuperacao';
   
@@ -25,7 +25,7 @@ function App() {
         <Route path='/studio' component={Studio} />
         <Route path='/contato' component={Contato} />
         <Route path='/cadastro' component={Cadastro} />
-        <Route path='/signin' component={Signin} />
+        <Route path='/login' component={Login} />
         <Route path='/recuperacao' component={Recuperacao} />
       </Switch>
     </Router>

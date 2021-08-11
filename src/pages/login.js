@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Signin = () => {
+const Login = () => {
 	return (
 
 		<div class="container">
@@ -30,4 +30,4 @@ const Signin = () => {
 	);
 };
 
-export default Signin;
+export default Login;

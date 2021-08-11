@@ -43,7 +43,7 @@ const cadastro = () => {
           <br />
 				<button type="submit">Cadastrar</button>
 				<br />
-        <Link to="/signin" ><p class="small">Já tem cadastro? Clique aqui!</p></Link>
+        <Link to="/login" ><p class="small">Já tem cadastro? Clique aqui!</p></Link>
       </div>
     </div>
   );
