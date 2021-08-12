@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import AuthContext from '../contexts/auth';
 
 const Login = () => {
+	const context = useContext(AuthContext);
+
+	console.log(context);
+	
+	function handleLogin() {
+		context.login();
+	}
 	return (
 
 		<div class="container">
@@ -20,12 +28,13 @@ const Login = () => {
 				<br />
 				<input type="password" id="password" />
 				<br />
-				<button type="submit">Entrar</button>
+				<button onClick={handleLogin}>Entrar</button>
 				<br />
 				<Link to="/recuperacao"><p class="small">Esqueçeu E-mail / Senha?</p></Link>
 				<Link to="/cadastro"  ><p class="small">Não tem cadastro? Clique aqui!</p> </Link>
 			</div>
 		</div>
+
 
 	);
 };
