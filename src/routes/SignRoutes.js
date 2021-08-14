@@ -9,18 +9,18 @@ import Inicio from '../pages/inicio';
 
 
 const SignRoutes = () => {
- return (
-   <>
-   
-        <Route path='/inicio' component={Inicio} />
-        <Route path='/projeto' component={Projeto} />
-        <Route path='/sobre' component={Sobre} />
-        <Route path='/studio' component={Studio} />
-        <Route path='/contato' component={Contato} />
-        
-        
-   </>
- );
+  return (
+    <>
+
+      <Route path='/inicio' component={Inicio} />
+      <Route path='/projeto' component={Projeto} />
+      <Route path='/sobre' component={Sobre} />
+      <Route path='/studio' component={Studio} />
+      <Route path='/contato' component={Contato} />
+
+
+    </>
+  );
 };
 
 export default SignRoutes;

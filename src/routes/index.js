@@ -6,7 +6,7 @@ import OtherRoutes from './OtherRoutes';
 const Routes = () => {
    /*  const login = false; */
  return (
-  <OtherRoutes/> 
+  <OtherRoutes />
  );
 };
 
